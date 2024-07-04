@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dau7sw287kaev"]
+
+[ext_resource type="Texture2D" uid="uid://bglqbca81tjdf" path="res://assets/sprites/platforms.png" id="1_sj8tt"]
+
+[node name="Platform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_sj8tt")
+region_enabled = true
+region_rect = Rect2(16, 0, 32, 9)
